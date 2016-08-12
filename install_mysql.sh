@@ -1,5 +1,3 @@
-apt-get -y update
-apt-get -y dist-upgrade
-apt-get -y install mysql-server
-apt-get -y install php-mysql
+sudo apt-get update
+sudo apt-get -y install mysql-server
  
