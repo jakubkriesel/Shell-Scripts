@@ -1,5 +1,4 @@
 #!/bin/bash
-sudo -s
 apt-get update && apt-get install php5 libapache2-mod-php5
 <?php phpinfo(); ?>
 service apache2 restart
