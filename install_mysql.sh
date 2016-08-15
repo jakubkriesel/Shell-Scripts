@@ -1,2 +1,2 @@
-sudo apt-get update
+apt-get update
 #sudo apt-get -y install mysql-server
