@@ -1,5 +1,11 @@
 #!/bin/bash
-sudo apt-get update 
-sudo apt-get -y install apache2
-sudo service apache2 restart
-#sudo chown -R www-data:www-data /var/www/software/config
+apt-get -y update
+
+# install Apache2
+apt-get -y install apache2 
+
+# write some HTML
+echo \<center\>\<h1\>My Demo App\</h1\>\<br/\>\</center\> > /var/www/html/demo.html
+
+# restart Apache
+apachectl restart
