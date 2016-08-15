@@ -1,2 +1,4 @@
-apt-get update
-#sudo apt-get -y install mysql-server
+#!/bin/bash
+apt-get -y update
+
+# install Apache2
